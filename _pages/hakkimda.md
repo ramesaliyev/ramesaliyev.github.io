@@ -3,7 +3,7 @@ title: Hakkımda
 permalink: /hakkimda.html
 ---
 
-Selamlar, ben Rameş Aliyev. 89' çıkışlı JavaScript geliştiriciyim. İstanbul'da varlığımı sürdürmekteyim. Bu sayfayı yazmaktan nefret ediyorum. Daha fazla devam edemeyeceğim. Şunlara bakın;
+Selamlar, ben Rameş Aliyev. İstanbul'da yaşayan bir JavaScript geliştiriciyim. Daha fazlası için bakınız;
 
 ### bağlantılarım
 - <a href="https://github.com/ramesaliyev" target="_blank">github</a>
