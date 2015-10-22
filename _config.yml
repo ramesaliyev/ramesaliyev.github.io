@@ -1,13 +1,14 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
-
 # Basic
 name:               "ramesaliyev"
 
 # URL
 baseurl:            ""
-permalink:          /:year/:month/:day/:title.html
+permalink:          :title.html
+relative_permalinks: true
+url:                 http://ramesaliyev.github.io
+title:               ramesaliyev
+description:         'Rameş Aliyev'
+paginate:            100
 
 # Markdown
 markdown:           rdiscount
@@ -15,9 +16,7 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "About"
-    href:           "//gfjaru.github.io/Kiko/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+    href:           "//ramesaliyev.github.io/about"
 
 # Sass
 sass:
