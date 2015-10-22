@@ -3,11 +3,10 @@
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
+name:               "ramesaliyev"
 
 # URL
-baseurl:            "/Kiko"
-#baseurl:            "" #For Root Domain
+baseurl:            ""
 permalink:          /:year/:month/:day/:title.html
 
 # Markdown
