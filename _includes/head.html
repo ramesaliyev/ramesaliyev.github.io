@@ -1,0 +1,13 @@
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{site.fullname}} | {{page.title}}{% else %}{{site.fullname}}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{page.excerpt | strip_html}}{% else %}{{site.description}}{% endif %}">
+  <meta name="keywords" content="{% if page.tags %}{{page.tags | join:', '}}{% else %}{{site.keywords}}{% endif %}">
+  <meta name="author" content="{{site.fullname_human}}">
+
+  <!-- Assets -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+</head>
