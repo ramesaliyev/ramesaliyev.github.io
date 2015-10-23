@@ -186,7 +186,7 @@ pre {
 
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 75%;
   color: inherit;
   background-color: transparent;
 }
@@ -198,7 +198,7 @@ pre code {
 
 .highlight pre {
   margin-bottom: 0;
-  padding: 13px 15px;
+  padding: 7px 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
@@ -441,4 +441,28 @@ tbody tr:nth-child(odd) th {
 
 .border-wrapper {
   border: 1px solid #ccc;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.magenta {
+  color: magenta;
+}
+
+.brown {
+  color: brown;
+}
+
+.orange {
+  color: orange;
 }
