@@ -4,6 +4,11 @@ surname               : 'aliyev'
 fullname              : 'ramesaliyev'
 fullname_human        : 'Rameş Aliyev'
 domain                : 'http://ramesaliyev.com'
+avatar                : 'general/avatar.jpg'
+
+# Paths
+paths                 : 
+  images              : '/assets/images/'
 
 # Info
 description           : "Rameş Aliyev'in kişisel web sitesi."
