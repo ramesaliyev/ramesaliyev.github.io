@@ -1,4 +1,6 @@
 <head>
+  {% capture cannonical_url %}{{site.domain}}{{page.url}}{% endcapture %}
+
   <!-- Meta -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,7 +9,14 @@
   <meta name="keywords" content="{% if page.tags %}{{page.tags | join:', '}}{% else %}{{site.keywords}}{% endif %}">
   <meta name="author" content="{{site.fullname_human}}">
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
-  
+  <link rel="canonical" href="{{cannonical_url}}" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.fullname}}{% endif %}"/>
+  <meta property="og:url" content="{{cannonical_url}}"/>
+  <meta property="og:site_name" content="{{site.fullname_human}}"/>
+  <meta property="og:type" content="blog"/>
+
   <!-- Assets -->
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
