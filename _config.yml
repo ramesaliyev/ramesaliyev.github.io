@@ -6,6 +6,9 @@ fullname_human        : 'Rameş Aliyev'
 domain                : 'http://ramesaliyev.com'
 avatar                : 'general/avatar.jpg'
 
+# Open Graph
+og_image              : 'general/og_image_default.png'
+
 # Paths
 paths                 : 
   images              : '/assets/images/'
