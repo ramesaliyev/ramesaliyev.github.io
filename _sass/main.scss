@@ -262,6 +262,7 @@ tbody tr:nth-child(odd) th {
   padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
+  overflow: hidden;
   
   @media (min-width: 38rem){
     padding: 5rem 1rem;
@@ -465,4 +466,10 @@ tbody tr:nth-child(odd) th {
 
 .orange {
   color: orange;
+}
+
+::selection {
+  text-shadow: none;
+  color: #333;
+  background: #FFFFCF;
 }
