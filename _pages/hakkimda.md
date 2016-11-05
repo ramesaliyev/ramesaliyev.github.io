@@ -3,7 +3,13 @@ title: Hakkımda
 permalink: /hakkimda.html
 ---
 
-Selamlar, ben Rameş Aliyev. İstanbul'da yaşayan bir JavaScript geliştiriciyim. Daha fazlası için bakınız;
+Merhaba, ben Rameş. İstanbul'da yaşayan bir yazılım geliştiriciyim. Uzmanlık alanlarım JavaScript ve Front-End Web. Back-End tarafında ise NodeJS üzerine çalışmalar yapıyorum. 
+
+Yazılım geliştirmenin yanı sıra ilgi alanlarımın başında machine learning ve matematik geliyor. 
+
+İş hayatının dışında kalan zamanlarda yorgun değilsem ilgi alanlarımı araştırıyor, kendimi geliştiriyor, içerik hazırlıyor, eğitim veriyor, orada burada konuşuyorum. Yorgunsam oyun oynuyorum.
+
+Benimle ilgili daha fazlası için aşağıya bakınız.
 
 ### projelerim
 - <a href="http://bedelliaskerlikciktimi.com" target="_blank">bedelliaskerlikciktimi.com</a> - adı üzerinde
