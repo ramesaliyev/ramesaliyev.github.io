@@ -12,5 +12,8 @@ layout: default
     <time>{{ page.date | date:"%d.%m.%Y" }}</time>
   </div>
   {{ content }}
+  <small class="contribution-info">
+    <a target="_blank" href="https://github.com/ramesaliyev/ramesaliyev.github.io/blob/master/{{page.path}}">Bu içeriğe</a> katkıda bulunmak için github üzerinden pull request gönderebilirsiniz.
+  </small>
   {% include disqus.html %}
 </div>

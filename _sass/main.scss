@@ -81,8 +81,8 @@ dd {
 }
 
 ul {
-  list-style: inside disc;
-  padding-left: 0;
+  list-style: disc;
+  padding-left: 21px;
   
   li {
     margin-bottom: .25rem;
@@ -192,6 +192,7 @@ pre code {
 }
 
 .highlight {
+  margin: 0;
   margin-bottom: 1rem;
   border-radius: 4px;
 }
@@ -472,4 +473,59 @@ tbody tr:nth-child(odd) th {
   text-shadow: none;
   color: #333;
   background: #FFFFCF;
+}
+
+.contribution-info {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px;
+  border: 1px dashed #999;
+  border-width: 1px 0px;
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: #999;
+  text-align: center;
+}
+
+.vinculum {
+  text-decoration: overline
+}
+
+.content-tree {
+  border: 2px dashed #ccc;
+  padding: 10px;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 19px;
+  border-width: 2px 0px;
+  overflow: hidden;
+
+  position: relative;
+
+  &:before {
+    display: block;
+    position: absolute;
+    right: 3px;
+    bottom: 40px;
+    content: "BAŞLIKLAR";
+    font-size: 118px;
+    color: #F3F3F3;
+    z-index: 0;
+    font-weight: bold;
+  }
+  
+  * {
+    position: relative;
+    z-index: 1;
+  }
+
+
+  a {
+    display: inline-block;
+    color: #268bd2;  
+
+    &:hover {
+      background-color: #FFFFCF;
+    }
+  }
 }

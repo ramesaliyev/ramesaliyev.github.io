@@ -21,7 +21,7 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
     <div class="list-post-date">
-      <time>{{ post.date | | date: "%d.%m.%Y" }}</time>
+      <time>{{ post.date | date: "%d.%m.%Y" }}</time>
     </div>
     <div class="list-post-summary">
       {{ post.excerpt | strip_html }}

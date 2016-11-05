@@ -1,6 +1,8 @@
 <head>
   {% capture cannonical_url %}{{site.domain}}{{page.url}}{% endcapture %}
   {% capture description %}{% if page.excerpt %}{{page.excerpt | strip_html}}{% else %}{{site.description}}{% endif %}{% endcapture %}
+  {% capture title %}{% if page.title %}{{page.title}}{% else %}{{site.fullname}}{% endif %}{% endcapture %}
+  {% capture image %}{{site.domain}}{{site.paths.images}}{{site.og_image}}{% endcapture %}
 
   <!-- Meta -->
   <meta charset="utf-8">
@@ -13,15 +15,21 @@
   <link rel="canonical" href="{{cannonical_url}}" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.fullname}}{% endif %}"/>
+  <meta property="og:title" content="{{title}}"/>
   <meta property="og:url" content="{{cannonical_url}}"/>
   <meta property="og:site_name" content="{{site.fullname_human}}"/>
   <meta property="og:description" content="{{description}}"/>
-  <meta property="og:image" content="{{site.domain}}{{site.paths.images}}{{site.og_image}}" />
+  <meta property="og:image" content="{{image}}" />
   <meta property="og:type" content="blog"/>
-  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="940" />
   <meta property="og:image:height" content="492" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="{{title}}" />
+  <meta name="twitter:description" content="{{description}}" />
+  <meta name="twitter:image" content="{{image}}" />
 
   <!-- Assets -->
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
