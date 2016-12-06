@@ -1,5 +1,6 @@
 # jekyll related files
 _site
+_drafts
 .jekyll-metadata
 
 # sass
